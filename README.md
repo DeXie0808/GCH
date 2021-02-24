@@ -1,21 +1,10 @@
 # GCH
 Graph Convolutional Network Hashing for Cross-Modal Retrieval, IJCAI2019
 
-# One-Stage Visual Grounding
-**\*\*\*\*\* New: Our recent work on One-stage VG is available at [ReSC](https://github.com/zyang-ur/ReSC).\*\*\*\*\***
-
-
-[A Fast and Accurate One-Stage Approach to Visual Grounding](https://arxiv.org/pdf/1908.06354.pdf)
-
-by [Zhengyuan Yang](http://cs.rochester.edu/u/zyang39/), [Boqing Gong](http://boqinggong.info/), [Liwei Wang](http://www.deepcv.net/), Wenbing Huang, Dong Yu, and [Jiebo Luo](http://cs.rochester.edu/u/jluo)
-
-IEEE International Conference on Computer Vision (ICCV), 2019, Oral
-
 
 ### Introduction
-We propose a simple, fast, and accurate one-stage approach 
-to visual grounding. For more details, please refer to our
-[paper](https://arxiv.org/pdf/1908.06354.pdf).
+we propose a Graph Convolutional Hashing (GCH) approach, which learns modality-unified binary codes via an affinity graph. For more details, please refer to our
+[paper](https://see.xidian.edu.cn/faculty/chdeng/Welcome%20to%20Cheng%20Deng's%20Homepage_files/Papers/Conference/IJCAI2019_Ruiqing.pdf).
 
 <!-- ![alt text](http://cs.rochester.edu/u/zyang39/VG_ICCV19.jpg 
 "Framework") -->
@@ -25,12 +14,12 @@ to visual grounding. For more details, please refer to our
 
 ### Citation
 
-    @inproceedings{yang2019fast,
-      title={A Fast and Accurate One-Stage Approach to Visual Grounding},
-      author={Yang, Zhengyuan and Gong, Boqing and Wang, Liwei and Huang
-        , Wenbing and Yu, Dong and Luo, Jiebo},
-      booktitle={ICCV},
-      year={2019}
+    @inproceedings{xu2019graph,
+    title={Graph Convolutional Network Hashing for Cross-Modal Retrieval.},
+    author={Xu, Ruiqing and Li, Chao and Yan, Junchi and Deng, Cheng and Liu, Xianglong},
+    booktitle={Ijcai},
+    pages={982--988},
+    year={2019}
     }
 
 ### Prerequisites
