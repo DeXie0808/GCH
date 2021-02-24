@@ -9,7 +9,7 @@ we propose a Graph Convolutional Hashing (GCH) approach, which learns modality-u
 <!-- ![alt text](http://cs.rochester.edu/u/zyang39/VG_ICCV19.jpg 
 "Framework") -->
 <p align="center">
-  <img src="http://cs.rochester.edu/u/zyang39/VG_ICCV19.jpg" width="75%"/>
+  <img src=fig/framework.png width="75%"/>
 </p>
 
 ### Citation
