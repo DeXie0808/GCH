@@ -24,16 +24,16 @@ we propose a Graph Convolutional Hashing (GCH) approach, which learns modality-u
 
 ### Prerequisites
 
-* Python 3.5 (3.6 tested)
-* Pytorch 0.4.1
-* Others ([Pytorch-Bert](https://pypi.org/project/pytorch-pretrained-bert/), OpenCV, Matplotlib, scipy, etc.)
+* Python 2.7
+* Tensorflow 1.2.0
+* Others (numpy, scipy, h5py, etc.)
 
 ## Installation
 
 1. Clone the repository
 
     ```
-    git clone https://github.com/zyang-ur/onestage_grounding.git
+    git clone https://github.com/DeXie0808/GCH.git
     ```
 
 2. Prepare the submodules and associated data
@@ -86,57 +86,3 @@ Using flag ``--test`` to access test mode.
     ```
 
 5. Visulizations. Flag ``--save_plot`` will save visulizations.
-
-
-## Performance and Pre-trained Models
-Please check the detailed experiment settings in our [paper](https://arxiv.org/pdf/1908.06354.pdf).
-<table>
-    <thead>
-        <tr>
-            <th>Dataset</th>
-            <th>Ours-LSTM</th>
-            <th>Performance (Accu@0.5)</th>
-            <th>Ours-Bert</th>
-            <th>Performance (Accu@0.5)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>ReferItGame</td>
-            <td><a href="https://drive.google.com/open?id=1-DXvhEbWQtVWAUT_-G19zlz-0Ekcj5d7">Gdrive</a></td>
-            <td>58.76</td>
-            <td><a href="https://drive.google.com/open?id=1-DXvhEbWQtVWAUT_-G19zlz-0Ekcj5d7">Gdrive</a></td>
-            <td>59.30</td>
-        </tr>
-        <tr>
-            <td>Flickr30K Entities</td>
-            <td><a href="https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/ErrXDnw1igFGghwbH5daoKwBX4vtE_erXbOo1JGnraCE4Q?e=tQUCk7">One Drive</a></td>
-            <td>67.62</td>
-            <td><a href="https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/ErrXDnw1igFGghwbH5daoKwBX4vtE_erXbOo1JGnraCE4Q?e=tQUCk7">One Drive</a></td>
-            <td>68.69</td>
-        </tr>
-        <tr>
-            <td rowspan=3>RefCOCO</td>
-            <td rowspan=3><!-- <a href="https://drive.google.com/open?id=1-DXvhEbWQtVWAUT_-G19zlz-0Ekcj5d7">Weights</a></td> -->
-            <td>val: 73.66</td>
-            <td rowspan=3><!-- <a href="https://drive.google.com/open?id=1-DXvhEbWQtVWAUT_-G19zlz-0Ekcj5d7">Weights</a></td> -->
-            <td>val: 72.05</td>
-        </tr>
-        <tr>
-            <td>testA: 75.78</td>
-            <td>testA: 74.81</td>
-        </tr>
-        <tr>
-            <td>testB: 71.32</td>
-            <td>testB: 67.59</td>
-        </tr>
-    </tbody>
-</table>
-
-
-### Credits
-Part of the code or models are from 
-[DMS](https://github.com/BCV-Uniandes/DMS),
-[MAttNet](https://github.com/lichengunc/MAttNet),
-[Yolov3](https://pjreddie.com/darknet/yolo/) and
-[Pytorch-yolov3](https://github.com/eriklindernoren/PyTorch-YOLOv3).
