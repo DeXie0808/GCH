@@ -54,13 +54,11 @@ Change ``setting.py``, use ``phase='train'``
 
     ```
     python main_itpair.py
-    
     ```
 
 4. Evaluate the model, run the code under main folder. 
 Change ``setting.py``, use ``phase='test'``
 
     ```
-        python main_itpair.py
-
+    python main_itpair.py
     ```
