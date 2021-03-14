@@ -39,13 +39,13 @@ we propose a Graph Convolutional Hashing (GCH) approach, which learns modality-u
 2. Prepare the dataset and the pretrained model.
 
 * Dataset: Flickr25k dataset
-Please download Flickr25k dataset: [FLICKR-25k.mat]() and place the data under ``./data``.
+Please download Flickr25k dataset: [FLICKR-25k.mat](https://drive.google.com/file/d/14OqnNZGEzbSt4oc0WvH1qeSxtlhpPsmF/view?usp=sharing) and place the data under ``./data``.
 
 * Pretrained model: vggf
-Please download the pretrained vggf model: [imagenet-vgg-f.mat]() and place the data under ``./data/weight``.
+Please download the pretrained vggf model: [imagenet-vgg-f.mat](https://drive.google.com/file/d/12BnVxvuumYfLi9afHmgJGTePrp4Wg_q7/view?usp=sharing) and place the data under ``./data/weight``.
 
 * Mean of ImageNet: mean
-Please download the mean of the ImageNet: [Mean.h5]() and place the data under ``./data/weight``.
+Please download the mean of the ImageNet: [Mean.h5](https://drive.google.com/file/d/1tMaQBW_PwJIZPSkeNmnApFiIC7rF7KUO/view?usp=sharing) and place the data under ``./data/weight``.
 
 
 ### Training
